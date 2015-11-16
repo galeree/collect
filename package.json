@@ -1,7 +1,11 @@
 {
-  "name": "sna-project",
+  "name": "collect",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
   "dependencies": {
     "cron": "^1.0.9",
     "express": "2.5.4",
