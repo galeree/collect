@@ -10,9 +10,9 @@ var app = require('express').createServer(),
 var events = require('events');
 var eventEmitter = new events.EventEmitter();
 
-app.get('/', function(req, res) {
+/*app.get('/', function(req, res) {
   res.send('hello world');
-});
+});*/
 
 app.listen(server_port, server_ip_address, function() {
 	console.log( "Listening on " + server_ip_address + ", server_port ");
