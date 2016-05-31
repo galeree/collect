@@ -2,9 +2,9 @@
 This a lightweight app using Node.js to get twitter message from Twitter API day by day.
 
 # Main file
-- server.js     Generate app logic
-- keyword.txt   Keyword file including required hashtag and keyword to filter
+- <b>server.js</b>      Generate app logic
+- <b>keyword.txt</b>    Keyword file including required hashtag and keyword to filter
 
 # Package
-- ntwiiter      Used to connect to Twitter API
-- node-cron     Used to scheduled time to start or stop app execution.
+- <b>ntwiiter</b>      Used to connect to Twitter API
+- <b>node-cron</b>     Used to scheduled time to start or stop app execution.
